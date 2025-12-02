@@ -1,67 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LuckyBets – Best Casino & Cricket Betting</title>
-<style>
-  body {margin:0; font-family:Arial; background:#0f0f1a; color:white;}
-  .header {background:linear-gradient(#1a0033,#000); padding:10px; text-align:center; position:fixed; width:100%; top:0; z-index:99;}
-  .header a {color:#ffd700; margin:0 15px; text-decoration:none; font-weight:bold;}
-  .hero {background:url('https://i.imgur.com/0k3l9aJ.jpg') center/cover; height:90vh; display:flex; align-items:center; justify-content:center; text-align:center;}
-  .btn {background:#ffd700; color:#000; padding:15px 30px; font-size:20px; border-radius:10px; text-decoration:none; margin:10px; display:inline-block;}
-  .games {display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:15px; padding:20px;}
-  .game {background:#1a1a2e; border-radius:10px; padding:10px; text-align:center;}
-  .game img {width:100%; border-radius:8px;}
-  .footer {background:#000; padding:20px; text-align:center; font-size:14px;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuckyBets - Online Casino & Cricket Betting | UPI Deposits</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background: #0a0a0a; color: #fff; font-family: 'Arial', sans-serif; }
+        .navbar { background: linear-gradient(135deg, #1a0033, #000); }
+        .navbar-brand { color: #ffd700 !important; font-weight: bold; font-size: 1.5rem; }
+        .nav-link { color: #fff !important; }
+        .hero { background: url('https://i.imgur.com/hero-casino-bg.jpg') center/cover; height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+        .hero h1 { font-size: 3rem; color: #ffd700; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); }
+        .btn-gold { background: #ffd700; color: #000; border: none; padding: 12px 30px; font-weight: bold; border-radius: 25px; }
+        .games-grid { background: #1a1a2e; padding: 50px 20px; }
+        .game-card { background: #2a2a3e; border-radius: 15px; overflow: hidden; transition: transform 0.3s; }
+        .game-card:hover { transform: scale(1.05); }
+        .game-card img { width: 100%; height: 200px; object-fit: cover; }
+        .deposit-section { background: linear-gradient(135deg, #ff6b35, #f7931e); padding: 60px 20px; text-align: center; }
+        .app-section { background: #000; padding: 60px 20px; text-align: center; }
+        .footer { background: #0a0a0a; padding: 20px; text-align: center; font-size: 0.9rem; }
+    </style>
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">LuckyBets</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#casino">Casino</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#live">Live Casino</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sports">Cricket</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aviator">Aviator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promo">Promotions</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-gold ms-2" href="#login">Login / Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<div class="header">
-  <a href="#">Casino</a>
-  <a href="#">Live Casino</a>
-  <a href="#">Cricket</a>
-  <a href="#">Aviator</a>
-  <a href="#">Promotions</a>
-  <a href="#" style="float:right;">Login / Register</a>
-</div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to LuckyBets – Win Big with UPI!</h1>
+            <p class="lead">100% Welcome Bonus Up to ₹25,000 | Instant Deposits & Withdrawals</p>
+            <a href="#deposit" class="btn btn-gold me-3">Deposit Now</a>
+            <a href="#app" class="btn btn-gold">Download App</a>
+        </div>
+    </section>
 
-<div class="hero">
-  <div>
-    <h1>Welcome Bonus 100% up to ₹25,000</h1>
-    <p>Instant UPI Deposit • Fast Withdrawals</p>
-    <a href="#deposit" class="btn">Deposit Now</a>
-    <a href="#apk" class="btn">Download App</a>
-  </div>
-</div>
+    <!-- Games Grid -->
+    <section id="casino" class="games-grid">
+        <div class="container">
+            <h2 class="text-center mb-5">Popular Casino Games</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="game-card">
+                        <img src="https://i.imgur.com/teenpatti-game.jpg" alt="Teen Patti">
+                        <div class="p-3">
+                            <h5>Teen Patti</h5>
+                            <p>Play the classic Indian card game with real stakes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="game-card">
+                        <img src="https://i.imgur.com/andarbahar-game.jpg" alt="Andar Bahar">
+                        <div class="p-3">
+                            <h5>Andar Bahar</h5>
+                            <p>Fast-paced luck-based game – bet and win instantly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="game-card">
+                        <img src="https://i.imgur.com/aviator-game.jpg" alt="Aviator">
+                        <div class="p-3">
+                            <h5>Aviator Crash</h5>
+                            <p>Cash out before the plane flies away!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="game-card">
+                        <img src="https://i.imgur.com/roulette-game.jpg" alt="Roulette">
+                        <div class="p-3">
+                            <h5>Roulette</h5>
+                            <p>Spin the wheel for massive multipliers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="game-card">
+                        <img src="https://i.imgur.com/slots-game.jpg" alt="Slots">
+                        <div class="p-3">
+                            <h5>Slots</h5>
+                            <p>Thousands of themes – hit the jackpot today.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="game-card">
+                        <img src="https://i.imgur.com/cricket-betting.jpg" alt="Cricket Betting">
+                        <div class="p-3">
+                            <h5>Cricket Betting</h5>
+                            <p>Bet on IPL, T20 – live odds & in-play.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div style="padding:100px 20px 20px; text-align:center;">
-  <h2>Popular Games</h2>
-  <div class="games">
-    <div class="game"><img src="https://i.imgur.com/5qT8zXc.jpg"><br>Teen Patti</div>
-    <div class="game"><img src="https://i.imgur.com/JmK1rYt.jpg"><br>Andar Bahar</div>
-    <div class="game"><img src="https://i.imgur.com/XpL2sVa.jpg"><br>Aviator</div>
-    <div class="game"><img src="https://i.imgur.com/8kL9pQv.jpg"><br>Roulette</div>
-    <div class="game"><img src="https://i.imgur.com/3vX7mZb.jpg"><br>Dragon Tiger</div>
-    <div class="game"><img src="https://i.imgur.com/QwR5tLm.jpg"><br>Cricket Betting</div>
-  </div>
-</div>
+    <!-- Deposit Section -->
+    <section id="deposit" class="deposit-section">
+        <div class="container">
+            <h2>Secure UPI Deposits – Start Playing Now!</h2>
+            <p class="lead">Min ₹100 | Instant Credits | 24/7 Support</p>
+            <a href="https://pay.phonepe.com/YOUR_MERCHANT_ID?amount=500" class="btn btn-light btn-lg" target="_blank">Deposit ₹500 via UPI</a>
+            <p class="mt-3">Supports PhonePe, GPay, Paytm | Withdraw Winnings in 24 Hours</p>
+        </div>
+    </section>
 
-<div id="deposit" style="background:#1a0033; padding:40px; text-align:center;">
-  <h2>Deposit via UPI – Instant Tokens</h2>
-  <p>Minimum ₹100 • Tokens added in 2 minutes</p>
-  <a href="https://pay.phonepe.com/XXXXXXXX" class="btn" target="_blank">Pay with PhonePe / GPay / Paytm</a>
-</div>
+    <!-- App Download -->
+    <section id="app" class="app-section">
+        <div class="container">
+            <h2>Download LuckyBets Android App</h2>
+            <p>Play on the go – exclusive app bonuses!</p>
+            <a href="YOUR_GOOGLE_DRIVE_APK_LINK" class="btn btn-gold btn-lg">Download APK (5MB)</a>
+        </div>
+    </section>
 
-<div id="apk" style="background:#000; padding:40px; text-align:center;">
-  <h2>Download Official Android App</h2>
-  <a href="YOUR_APK_DRIVE_LINK_HERE" class="btn">Download APK (4.2 MB)</a>
-</div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 LuckyBets | Licensed by [Your License] | 18+ Only | Responsible Gaming | GST Compliant</p>
+        </div>
+    </footer>
 
-<div class="footer">
-  © 2025 LuckyBets | Licensed | 18+ Only | Responsible Gaming
-</div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
